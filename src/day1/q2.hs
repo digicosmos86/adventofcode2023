@@ -1,6 +1,5 @@
 import Data.List (findIndex, isPrefixOf, tails)
 import Data.Char (isDigit, ord)
-import Control.Applicative (liftA2)
 
 numbers::[String] = ["zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine"]
 reverseNumbers::[String] = map reverse numbers
